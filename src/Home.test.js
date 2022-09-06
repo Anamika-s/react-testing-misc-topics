@@ -1,11 +1,17 @@
 import Home from './Home'
 import {shallow} from "enzyme"
-// import Adapter from   'enzyme-adapter-react-16'
+ 
 describe('test suite for Home Comp', ()=>
 {
-  it('home' , ()=>
+  
+  // AAA
+  // A > Arrange
+  // A > Act
+  // A > Assert
+  it('testing home component' , ()=>
   {
     let wrapper = shallow(<Home/>)
-    console.log(wrapper);
+    console.log(wrapper.debug());
+    expect(wrapper.exists('.homeClass')).toEqual(true)
   })
 })

@@ -25,7 +25,7 @@ const NotFound = lazy(()=> import('./components/NotFound') )
       learn react
       {/* <PureComp/> */}
       {/* <UseMemoDemo/> */}
-      <App5/>
+      {/* <App5/> */}
         {/* <BrowserRouter>
       <Suspense fallback ={<h1> Page is loading </h1>}>  
        <NavBar/>
